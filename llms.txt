@@ -1,0 +1,53 @@
+# Etieno Douglas
+
+> Marketing and creative leader based in Nigeria, working remotely worldwide. Runs Aphinity Digital, an AI-centric digital marketing agency; Creative Lead at Chloe Consulting, a HubSpot partner agency; founder of The Crucible, a youth development and leadership community.
+
+This portfolio has two sides: Creative & Marketing (brands, websites, products and marketing) and Leadership & Impact (youth empowerment, mentorship, speaking and partnerships).
+
+## Creative & Marketing
+
+- Marketing strategy & growth: creative and content strategy tying brand, story and channel into one plan, with SEO and visibility in AI answer engines (GEO). HubSpot-certified in content marketing.
+- Brand & identity: identity systems, messaging and campaigns that stay consistent across every touchpoint.
+- Web design & development: websites built on HubSpot CMS, Webflow, WordPress or custom code.
+- Products & platforms: booking systems, learning platforms and apps, with the dashboards that run them.
+- [Aphinity Digital](https://aphinity.digital): his AI-centric, full-service digital marketing agency (branding, SEO, GEO, web, social, billboards, events).
+
+## Selected projects
+
+- [Splari Academy](https://splari.com/): Learning platform. A course marketplace where you buy a course once and a working practitioner assesses your final project.
+- [Ace Trail Express](https://acetrail.vercel.app/): Booking & operations platform. Seat booking and a full operations system for a Toyota Sequoia shuttle between Uyo, Port Harcourt and Calabar.
+- [Tell (Selah)](https://etienodouglas.online/#/work/tell): Mobile & desktop app. Notes that listen. Record a sermon, talk, class or meeting, and get organised notes, summaries and verified scripture.
+- [Aphinity Invoicing](https://aphinity-app.vercel.app/): SaaS tool. Invoices for freelancers: polished templates recoloured to your brand, sent by email or WhatsApp.
+- [Quinema](https://quinema-app.vercel.app/): Streaming app. A streaming app for movies and games: Nollywood, classics, comedy, horror and more, with lists and chat.
+- [Eco Dash](https://play.google.com/store/apps/details?id=com.PelzStudioLabs.EcoDash): Mobile game · Android. An endless runner where you dash through polluted streets, collect trash and learn climate facts along the way.
+- [Hispren](https://hispren.vercel.app/): Agency website. Church media and digital solutions: one sermon turned into videos, podcasts, books, blogs and social content.
+- [New Frontiers Ministers' Global Network](https://newfrontiers.vercel.app/): Ministry network. A global network raising spiritually grounded, mentally robust and technologically empowered ministers.
+- [Love Unites International](https://loveunitesinternational.org/): Nonprofit website. A humanitarian nonprofit empowering people through enterprise development and aid for underserved communities.
+- [Paul Udah](https://thepauludah.vercel.app/): Personal brand site. The personal site of a leadership educator, speaker and author raising balanced, principled leaders.
+- [Almanac](https://almanac-site-two.vercel.app/): B2B website. A maintained library of regulatory policies and procedures for UK charities, mapped to Charity Commission guidance.
+- [D-Vine Consults](https://dvine-woad.vercel.app/): Architecture firm website. A Nigerian architectural firm with over 15 years of practice in interiors, sustainable design and engineering.
+- [Architech](https://architech-site.vercel.app/): Architecture studio site. A showcase site for a residential and cultural architecture studio, from concept to completed home.
+- [Owambe Fashion](https://owambefashion.com/): Fashion brand website. WordPress website design and development for a fashion brand, plus a landing page for its dress-up game.
+
+## Leadership & Impact
+
+- [The Crucible](https://crucible.etienodouglas.online/): founder. A growth community for young people focused on self-building, leadership and impact.
+- [Love Unites International](https://loveunitesinternational.org/): partner. A humanitarian nonprofit empowering people through enterprise development and aid for underserved communities.
+- Available for speaking (leadership, purpose, building in the digital age), youth programme partnerships and mentorship.
+
+## Free templates
+
+- Ace Trail Express: Static site · ZIP, free download from the portfolio's templates page (https://etienodouglas.online/#/templates).
+- Splari Academy: Next.js app · ZIP, free download from the portfolio's templates page (https://etienodouglas.online/#/templates).
+- Tell (Selah): Interactive prototype · HTML, free download from the portfolio's templates page (https://etienodouglas.online/#/templates).
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/etienookondouglas/)
+- [GitHub](https://github.com/thebigdesigner)
+- [Dribbble](https://dribbble.com/etienoekanem)
+- Location: Nigeria, working remotely worldwide
+
+## Optional
+
+- [Full details for AI assistants](https://etienodouglas.online/llms-full.txt): every project with descriptions, roles and tools, plus career history and FAQ.

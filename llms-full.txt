@@ -1,0 +1,198 @@
+# Etieno Douglas: full details
+
+> Marketing and creative leader based in Nigeria, working remotely worldwide. Runs Aphinity Digital, Creative Lead at Chloe Consulting, founder of The Crucible.
+
+Website: https://etienodouglas.online/
+
+## About
+
+Etieno Douglas works where marketing meets craft: setting strategy, building brands and shipping the websites and products that carry them. He runs Aphinity Digital, an AI-centric digital marketing agency, and is Creative Lead at Chloe Consulting, a HubSpot partner agency. He has led product and brand design for teams in Dubai and beyond. His motto: your dream, my goal.
+
+## Career
+
+- Present: Aphinity Digital. Runs a full-service, AI-centric agency covering branding, SEO, GEO, web, social and out-of-home.
+- Jun 2026 to present: Creative Lead, Chloe Consulting (remote). Leads creative direction across B2B client marketing on HubSpot and coaches client teams to run their own marketing pages.
+- Apr to Nov 2025: Product & Brand Designer, Kiyapz (Dubai, remote). Led product and brand design, including the company's visual identity and logo.
+- Jan 2024 to Sep 2026: Co-Founder, AspectDigita. Co-founded and helped lead a full-service agency offering brand strategy, websites and SEO.
+
+## Principles
+
+- Systems outlast talent: a design system keeps a brand consistent long after the first win.
+- A brand is a feeling: your brand is what people say about you when you're not in the room.
+- Visibility drives growth: being found by people already searching is what converts.
+
+## Projects
+
+### Splari Academy
+
+- Type: Learning platform
+- Link: https://splari.com/
+- Summary: A course marketplace where you buy a course once and a working practitioner assesses your final project.
+- Splari sells courses for a one-off price, from $30, with the assessment of the learner's final project built into that price. The assessment is done by someone who does that work for a living, so a certificate means a practitioner signed off on real work.
+- Beyond the public site, the platform includes a learner dashboard for courses, submissions and certificates, a studio where instructors build and price courses, and admin and operations consoles for applications, payouts and verification.
+- What Etieno did: Product strategy and pricing model; UX and visual design system; Next.js front end and Supabase back end; Learner, instructor and admin experiences
+- Built with: Next.js, React, TypeScript, Supabase, Vercel
+- A free template of this project is available to download.
+
+### Ace Trail Express
+
+- Type: Booking & operations platform
+- Link: https://acetrail.vercel.app/
+- Summary: Seat booking and a full operations system for a Toyota Sequoia shuttle between Uyo, Port Harcourt and Calabar.
+- Customers choose a trip and seat, pay by card or bank transfer and get their ticket by email. Behind the public site sits one operations system for bookings, passengers, manifests, check-in, payments, refunds, expenses and loyalty.
+- The staff dashboard lets managers, terminal desks and drivers each land where their work is: today's departures, seats sold, money collected and recent activity, with every sale recorded against the person who made it.
+- What Etieno did: Brand refresh and booking UX; Customer booking flow and account area; Staff dashboard for sales, check-in and close-out; Payments, ticketing and serverless API
+- Built with: HTML/CSS/JS, Vercel Functions, Supabase, Paystack, Leaflet
+- A free template of this project is available to download.
+
+### Tell (Selah)
+
+- Type: Mobile & desktop app
+- Link: https://etienodouglas.online/#/work/tell
+- Summary: Notes that listen. Record a sermon, talk, class or meeting, and get organised notes, summaries and verified scripture.
+- Selah turns speech into structured study notes: clear paragraphs, lists, takeaways and action items, with scripture references detected and checked. A content studio then turns one message into blog posts, devotionals, captions, newsletters and video clip ideas.
+- The app is designed offline-first for Android, iOS, web and desktop, with meetings, calendar, folders, reminders and a community space. The prototype below is fully clickable.
+- What Etieno did: Product concept and UX; Interactive prototype with demo data; Design tokens and responsive layout rules; Offline-first architecture plan
+- Built with: Expo / React Native, TypeScript, Supabase, PowerSync, Tauri
+- A free template of this project is available to download.
+
+### Aphinity Invoicing
+
+- Type: SaaS tool
+- Link: https://aphinity-app.vercel.app/
+- Summary: Invoices for freelancers: polished templates recoloured to your brand, sent by email or WhatsApp.
+- A free invoicing tool from Aphinity. Freelancers pick a polished template, recolour it to their brand, get paid by bank transfer, and send invoices over email or WhatsApp. Invoices download as PDF or save to the account.
+- What Etieno did: Product design; Invoice templates and brand recolouring; Front-end build
+- Built with: Web app, PDF export, Vercel
+
+### Quinema
+
+- Type: Streaming app
+- Link: https://quinema-app.vercel.app/
+- Summary: A streaming app for movies and games: Nollywood, classics, comedy, horror and more, with lists and chat.
+- Quinema brings movies and games into one browsing experience, organised into shelves like Tonight, Classics, Nollywood, Comedy, Horror, Romance and Docs, with a personal list and chat.
+- What Etieno did: App UX and interface design; Browse and playback flows; Front-end build
+- Built with: Web app, Vercel
+
+### Eco Dash
+
+- Type: Mobile game · Android
+- Link: https://play.google.com/store/apps/details?id=com.PelzStudioLabs.EcoDash
+- Summary: An endless runner where you dash through polluted streets, collect trash and learn climate facts along the way.
+- Eco Dash turns climate action into a fast-paced endless runner. Players swipe to dodge obstacles, collect trash for points, complete missions, unlock eco-friendly power-ups and rare eco-badges, and pick up surprising climate facts as they run.
+- Recent updates added more characters, a trash-to-currency system, environment modes like Night Mode, and smoother gameplay. The game is live on Google Play and rated for everyone.
+- What Etieno did: Game UI design; Home, boosters and character select screens; In-game HUD and menus
+- Built with: Android, Google Play
+
+### Hispren
+
+- Type: Agency website
+- Link: https://hispren.vercel.app/
+- Summary: Church media and digital solutions: one sermon turned into videos, podcasts, books, blogs and social content.
+- Hispren helps ministries multiply their message. Sermons become videos, podcasts, books, blogs, courses and social content, with live streaming and websites, so a church's message keeps reaching people all week.
+- What Etieno did: Brand and messaging; Website design and build; Service and pricing structure
+- Built with: TypeScript, Vercel
+
+### New Frontiers Ministers' Global Network
+
+- Type: Ministry network
+- Link: https://newfrontiers.vercel.app/
+- Summary: A global network raising spiritually grounded, mentally robust and technologically empowered ministers.
+- The site presents the network's mandate, its tracks for lead pastors, youth and campus ministers and marketplace leaders, upcoming events and resources, and an application flow to join.
+- What Etieno did: Website design and build; Membership application flow; Content structure
+- Built with: Web, Vercel
+
+### Love Unites International
+
+- Type: Nonprofit website
+- Link: https://loveunitesinternational.org/
+- Summary: A humanitarian nonprofit empowering people through enterprise development and aid for underserved communities.
+- The site tells the organisation's story, explains its programmes, and gives supporters clear ways to get involved: donating, volunteering and partnering.
+- What Etieno did: Website design and build; Donation and volunteer journeys; Programme storytelling
+- Built with: Web
+
+### Paul Udah
+
+- Type: Personal brand site
+- Link: https://thepauludah.vercel.app/
+- Summary: The personal site of a leadership educator, speaker and author raising balanced, principled leaders.
+- Built around the message 'Leadership: YOU first, then others', the site covers Paul's credentials, mission, impact, gallery and events, including the Leadership Master-class and Young Leaders Summit, with booking for speaking.
+- What Etieno did: Personal brand presentation; Website design and build; Speaking and booking flow
+- Built with: Web, Vercel
+
+### Almanac
+
+- Type: B2B website
+- Link: https://almanac-site-two.vercel.app/
+- Summary: A maintained library of regulatory policies and procedures for UK charities, mapped to Charity Commission guidance.
+- Almanac covers governance, finance, HR, safeguarding, data protection and fundraising. The site explains the policy library, services and pricing, and drives demo bookings.
+- What Etieno did: Messaging for a compliance audience; Website design and build; Policy library structure
+- Built with: HTML, Vercel
+
+### D-Vine Consults
+
+- Type: Architecture firm website
+- Link: https://dvine-woad.vercel.app/
+- Summary: A Nigerian architectural firm with over 15 years of practice in interiors, sustainable design and engineering.
+- The site showcases D-Vine's projects and designs and explains its end-to-end services, from interior and landscape design to engineering and project management.
+- What Etieno did: Website design and build; Project showcase; Services structure
+- Built with: JavaScript, Vercel
+
+### Architech
+
+- Type: Architecture studio site
+- Link: https://architech-site.vercel.app/
+- Summary: A showcase site for a residential and cultural architecture studio, from concept to completed home.
+- A clean, image-led studio site that puts featured projects front and centre, with services, designs and a simple contact path.
+- What Etieno did: Website design and build; Portfolio-first layout
+- Built with: JavaScript, Vercel
+
+### Owambe Fashion
+
+- Type: Fashion brand website
+- Link: https://owambefashion.com/
+- Summary: WordPress website design and development for a fashion brand, plus a landing page for its dress-up game.
+- Owambe Fashion celebrates party-ready style. I designed and developed the brand's WordPress website and designed the landing page for its dress-up game.
+- What Etieno did: WordPress website design and development; Dress-up game landing page
+- Built with: WordPress
+
+## Leadership & Impact
+
+The Crucible (https://crucible.etienodouglas.online/) is a growth community for young people who want to build themselves and make real impact, founded by Etieno Douglas. Its three focuses are self-building, leadership and impact. He also partners with Love Unites International (https://loveunitesinternational.org/), a humanitarian nonprofit. He offers talks and workshops on leadership, purpose and building in the digital age, youth programme partnerships, and mentorship for young people and emerging leaders.
+
+## Frequently asked questions
+
+### Who is Etieno Douglas?
+
+Etieno Douglas is a marketing and creative leader based in Nigeria, working remotely with clients worldwide. He runs Aphinity Digital, an AI-centric digital marketing agency, is Creative Lead at Chloe Consulting, a HubSpot partner agency, and founded The Crucible, a youth development and leadership community.
+
+### What services does Etieno Douglas offer?
+
+Marketing strategy and growth, including SEO and visibility in AI answer engines; brand and identity; web design and development on HubSpot CMS, Webflow, WordPress or custom code; and products and platforms such as booking systems, learning platforms and apps.
+
+### What is Aphinity Digital?
+
+Aphinity Digital is an AI-centric, full-service digital marketing agency run by Etieno Douglas. It covers branding, SEO, GEO, web design, social media, billboards and events. Its website is aphinity.digital.
+
+### What is The Crucible?
+
+The Crucible is a growth community for young people who want to build themselves and make real impact, founded by Etieno Douglas. It focuses on self-building, leadership and impact. Its website is crucible.etienodouglas.online.
+
+### What projects has Etieno Douglas built?
+
+His 14 portfolio projects include Splari Academy, a course marketplace; Ace Trail Express, a seat-booking site with a staff operations dashboard; Tell, a notes app prototype; Eco Dash, an Android game; and websites for Love Unites International, Almanac, D-Vine Consults and others.
+
+### Are Etieno Douglas's website templates free?
+
+Yes. Three templates are free to download from the portfolio: a booking platform, a learning platform built with Next.js and a notes app prototype. Each comes with placeholder copy and the original images.
+
+### How can I work with Etieno Douglas?
+
+Message him on LinkedIn at linkedin.com/in/etienookondouglas, or start a project through Aphinity Digital at aphinity.digital. For leadership work, he is available for speaking, youth programme partnerships and mentorship.
+
+## Contact
+
+LinkedIn: https://www.linkedin.com/in/etienookondouglas/  
+GitHub: https://github.com/thebigdesigner  
+Dribbble: https://dribbble.com/etienoekanem  
+Agency: https://aphinity.digital

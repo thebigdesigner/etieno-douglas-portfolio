@@ -104,7 +104,7 @@
   .soon::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
 
   /* ---------- Header ---------- */
-  .top { position: sticky; top: 0; z-index: 50; padding-top: env(safe-area-inset-top, 0px); background: rgba(255,255,255,.92); backdrop-filter: blur(12px); border-bottom: 1px solid transparent; transition: background .35s, color .35s, border-color .35s; }
+  .top { position: sticky; top: 0; z-index: 50; padding-top: env(safe-area-inset-top, 0px); background: rgba(255,255,255,.97); border-bottom: 1px solid transparent; transition: background .35s, color .35s, border-color .35s; }
   .top.scrolled { border-color: var(--line); }
   .top .bar { display: flex; align-items: center; justify-content: space-between; gap: 20px; height: 72px; }
   .brand { display: flex; align-items: center; gap: 16px; min-width: 0; }
@@ -598,6 +598,69 @@
     .names .track::-webkit-scrollbar { display: none; }
     .names .set { animation: none !important; padding-left: 20px; }
     .names .set.clone { display: none !important; }
+  }
+  /* ===== Motion: entrances and hovers ===== */
+  @keyframes heroZoom { from { transform: scale(1.09); opacity: .25; } to { transform: none; opacity: 1; } }
+  @keyframes riseIn { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
+  .hero .photo img { transform-origin: 70% 40%; }
+  .hero.enter .photo img { animation: heroZoom 1.7s cubic-bezier(.2,.8,.2,1) both; }
+  .hero.enter .copy > *, .hero.enter .corner { animation: riseIn .9s cubic-bezier(.2,.8,.2,1) both; }
+  .hero.enter .copy > :nth-child(1) { animation-delay: .15s; }
+  .hero.enter .copy > :nth-child(2) { animation-delay: .27s; }
+  .hero.enter .copy > :nth-child(3) { animation-delay: .4s; }
+  .hero.enter .copy > :nth-child(4) { animation-delay: .52s; }
+  .hero.enter .corner { animation-delay: .8s; }
+
+  /* scroll reveal (only when JS is running; content is visible without it) */
+  .rv { opacity: 0; transform: translateY(28px); transition: opacity .85s cubic-bezier(.2,.8,.2,1), transform .85s cubic-bezier(.2,.8,.2,1); transition-delay: var(--rd, 0ms); }
+  .rv.is-in { opacity: 1; transform: none; }
+
+  /* hovers */
+  .btn { transition: background .2s, color .2s, border-color .2s, transform .2s, box-shadow .2s; }
+  .btn:hover { transform: translateY(-2px); }
+  .btn:active { transform: translateY(0) scale(.98); }
+  .btn.dark:hover, .btn.light:hover { box-shadow: 0 10px 24px rgba(0,0,0,.18); }
+  .wk { transition: transform .45s cubic-bezier(.2,.8,.2,1); }
+  .wk:hover { transform: translateY(-6px); }
+  .wk .im { transition: box-shadow .45s; }
+  .wk:hover .im { box-shadow: 0 22px 44px rgba(0,0,0,.18); }
+  .svc-item .no, .svc-item h3 { transition: color .3s, transform .35s cubic-bezier(.2,.8,.2,1); }
+  .svc-item:hover .no { color: var(--accent); }
+  .svc-item:hover h3 { transform: translateX(6px); }
+  .belief { transition: transform .4s cubic-bezier(.2,.8,.2,1), background .3s; }
+  .belief:hover { transform: translateY(-6px); background: var(--soft-2); }
+  .belief .no { transition: color .3s; }
+  .belief:hover .no { color: var(--accent); }
+  .jobs li { transition: background .3s; border-radius: 10px; }
+  .jobs li > div h3, .jobs li .when { transition: transform .35s cubic-bezier(.2,.8,.2,1), color .3s; }
+  .jobs li:hover { background: #fafafa; }
+  .jobs li:hover > div h3 { transform: translateX(8px); }
+  .jobs li:hover .when { color: var(--accent); }
+  .split2 .media img, .stmt2 .photo img { transition: transform 1.2s cubic-bezier(.2,.8,.2,1); }
+  .split2 .media:hover img, .stmt2 .photo:hover img { transform: scale(1.05); }
+  .citem .ic { transition: background .3s, color .3s, transform .35s cubic-bezier(.2,.8,.2,1); }
+  a.citem:hover .ic { background: var(--ink); color: #fff; transform: translateY(-3px); }
+  .ptile .top2 img { transition: transform .4s cubic-bezier(.2,.8,.2,1); }
+  .ptile:hover .top2 img { transform: rotate(-4deg) scale(1.06); }
+  .tpl { transition: border-color .3s, box-shadow .3s, transform .4s cubic-bezier(.2,.8,.2,1); }
+  .tpl:hover { border-color: #d6d6d6; box-shadow: 0 16px 40px rgba(0,0,0,.06); transform: translateY(-3px); }
+  .tpl .thumb img { transition: transform .8s cubic-bezier(.2,.8,.2,1); }
+  .tpl:hover .thumb img { transform: scale(1.04); }
+  .req { transition: background .25s, transform .3s; }
+  .req:hover { background: var(--soft-2); transform: translateX(4px); }
+  .pn a { transition: border-color .2s, transform .35s cubic-bezier(.2,.8,.2,1); }
+  .pn a:hover { transform: translateY(-3px); }
+  .gal-d img, .gal-m img, .gal-s img { transition: transform .5s cubic-bezier(.2,.8,.2,1), box-shadow .5s; }
+  .gal-d figure:hover img, .gal-m figure:hover img, .gal-s figure:hover img { transform: translateY(-4px); box-shadow: 0 18px 40px rgba(0,0,0,.12); }
+  .focus div { transition: border-color .3s; }
+  .focus div:hover { border-color: var(--accent); }
+  .chip { transition: background .2s, color .2s; }
+  .svc-item .seen a, .feature .chip { transition: background .2s, color .2s, transform .2s; }
+
+  @media (hover: none) { .btn:hover, .wk:hover, .belief:hover, .tpl:hover, .pn a:hover { transform: none; } }
+  @media (prefers-reduced-motion: reduce) {
+    .rv { opacity: 1 !important; transform: none !important; }
+    .hero.enter .photo img, .hero.enter .copy > *, .hero.enter .corner { animation: none !important; }
   }
 </style>
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -1206,6 +1269,7 @@ const PROJECTS = [
       </nav>
     </div></section>`;
     $("#view-project").innerHTML = h;
+    observeReveals($("#view-project"));
     const pl = $("#proto-load");
     if (pl) pl.addEventListener("click", () => {
       const f = document.createElement("iframe"); f.title = "Selah interactive prototype";
@@ -1216,6 +1280,37 @@ const PROJECTS = [
     return true;
   }
   document.addEventListener("click", e => { const b = e.target.closest("[data-scroll]"); if (!b) return; const el = document.getElementById(b.dataset.scroll); if (el) el.scrollIntoView({ behavior: "smooth" }); });
+
+  /* Motion: scroll reveals, count-ups and hero entrances */
+  const RM = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const REVEAL = [".sec-head", ".svc .intro", ".svc-item", ".wk", ".agency", ".split2 > *", ".stats > div", ".belief", ".jobs li", ".cross a",
+    ".stmt > *", ".focus > div", ".stmt2 > *", ".pcard", ".partners > div", ".ptile", ".citem", ".contact .h-sec", ".contact .lede", ".cta-row",
+    ".tpl", ".req", ".filters", ".page-head .display", ".page-head .lede", ".dhead > div", ".facts > div", ".stage", ".gal-d figure", ".gal-m figure",
+    ".gal-s figure", ".dbody > *", ".tcall", ".pn a", ".land-top > *"].join(",");
+  function countUp(el) {
+    const end = parseInt(el.textContent, 10); if (!end || RM) return;
+    const t0 = performance.now(), dur = 1100;
+    const step = t => { const k = Math.min(1, (t - t0) / dur); el.textContent = Math.round(end * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(step); };
+    el.textContent = "0"; requestAnimationFrame(step);
+  }
+  const io = (!RM && "IntersectionObserver" in window) ? new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return;
+    e.target.classList.add("is-in"); io.unobserve(e.target);
+    if (e.target.matches(".stats > div")) { const b = e.target.querySelector("b"); if (b) countUp(b); }
+  }), { rootMargin: "0px 0px -6% 0px", threshold: .08 }) : null;
+  function observeReveals(root) {
+    if (!io) return;
+    (root || document).querySelectorAll(REVEAL).forEach(el => {
+      if (el.dataset.rv || el.closest(".landing")) return; el.dataset.rv = "1";
+      const sibs = [...el.parentElement.children].filter(c => c.matches(REVEAL));
+      el.style.setProperty("--rd", Math.min(sibs.indexOf(el), 6) * 80 + "ms");
+      el.classList.add("rv"); io.observe(el);
+    });
+  }
+  function playHero(view) {
+    const h = view && view.querySelector(".hero"); if (!h || RM) return;
+    h.classList.remove("enter"); void h.offsetWidth; h.classList.add("enter");
+  }
 
   /* Router */
   let mode = null;
@@ -1261,7 +1356,7 @@ const PROJECTS = [
     if (hsh === "#/projects") { mode = "creative"; setSide("creative"); show("projects"); document.title = "All projects | Etieno Douglas"; window.scrollTo(0, 0); headerTone(); return; }
     if (hsh === "#/templates") { mode = "creative"; setSide("creative"); show("templates"); document.title = "Templates | Etieno Douglas"; window.scrollTo(0, 0); headerTone(); return; }
     if ((m = hsh.match(/^#\/(creative|impact)(?:\/([a-z]+))?$/))) {
-      mode = m[1]; setSide(mode); show(mode);
+      mode = m[1]; setSide(mode); show(mode); if (!m[2]) playHero(views[mode]);
       document.title = mode === "impact" ? "Leadership & Impact | Etieno Douglas" : "Etieno Douglas | Brands, Web & Marketing";
       if (m[2]) scrollToId(PREFIX[mode] + m[2]); else window.scrollTo(0, 0);
       headerTone(); return;
@@ -1310,6 +1405,8 @@ const PROJECTS = [
 
   window.addEventListener("hashchange", () => { closeMenu(); route(); });
   route();
+  const idle = window.requestIdleCallback || (fn => setTimeout(fn, 200));
+  idle(() => observeReveals(document));
 })();
 </script>
 </body>

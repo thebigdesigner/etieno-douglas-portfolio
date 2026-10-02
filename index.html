@@ -189,7 +189,9 @@
   .hero.warm .photo img { object-position: 70% 30%; -webkit-mask-image: none; mask-image: none; }
   .hero::after { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; }
   .hero.warm::after { background: linear-gradient(90deg, rgba(20,16,14,.85) 0%, rgba(20,16,14,.45) 42%, rgba(20,16,14,0) 62%), linear-gradient(0deg, rgba(20,16,14,.55) 0%, transparent 28%); }
-  .hero .wrap { position: relative; display: flex; align-items: center; min-height: min(78vh, 680px); }
+  .hero .wrap { position: relative; display: flex; align-items: center;
+    min-height: calc(100vh - 73px - env(safe-area-inset-top, 0px));
+    min-height: calc(100svh - 73px - env(safe-area-inset-top, 0px)); }
   .hero .copy { position: relative; max-width: 620px; padding: clamp(56px, 8vw, 100px) 0; }
   .hero h1 { margin-top: 26px; font-size: clamp(46px, 6.6vw, 96px); }
   .hero .copy > p { margin-top: 22px; max-width: 30em; font-size: 15.5px; }
@@ -482,7 +484,7 @@
   }
   @media (max-width: 860px) {
     /* photo sits behind the words */
-    .hero .wrap { min-height: 640px; align-items: flex-end; }
+    .hero .wrap { align-items: flex-end; }
     .hero .copy { padding: 120px 0 56px; }
     .hero .photo { left: 0; right: 0; width: 100%; }
     .hero .photo img { object-position: 50% 20%; -webkit-mask-image: none; mask-image: none; }
